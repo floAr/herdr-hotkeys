@@ -2,11 +2,16 @@
 
 **You click a tab. Herdr tells you the key you could have pressed, and keeps count.**
 
-<img src="demo.gif" width="560" alt="Toasts: Alt+2, Go to space 2, by hand 13×, 1 by key; the bar counts Hotkeys · 28 by hand">
+<a href="media/hotkeys.mp4"><img src="media/hotkeys.gif" width="540" alt="Clicking tabs piles up toasts with the missed keys, the Hotkeys panel's bars fill as keys get pressed, a free key gets bound, and the list of every shortcut scrolls by"></a>
+
+<sub>An animated walkthrough (also as an <a href="media/hotkeys.mp4">MP4</a>). Real screenshots are below.</sub>
 
 Most of us learn shortcuts by reading a cheat sheet once and forgetting it. Hotkeys catches you when it matters: right after you reach for the mouse.
 
 - **A toast when you do it by hand.** Switch a space, split a pane, close a tab or hide the sidebar with the mouse, and a toast shows the key: `Alt+2 · Go to space 2 · by hand 11×, 1 by key`.
+
+  <img src="media/toasts.gif" width="480" alt="Real toasts: Alt+2, Go to space 2, by hand 13×, 1 by key; the bar counts Hotkeys · 28 by hand">
+
 - **A "Learn these" list.** It ranks what you do by hand most, with a bar for how much of it you already do by key. Watch the bars fill up.
 
   <img src="preview.png" width="380" alt="The Hotkeys list: Alt+2 Go to space 2, 11 by hand, 1 by key">
