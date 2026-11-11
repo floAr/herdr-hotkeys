@@ -74,9 +74,24 @@ const LABEL = {
   "layout.toggle:sidebar": "Show or hide the sidebar",
   "layout.switch": "Switch layout",
   "panel.hide": "Close the side panel",
+  "pane.swap": "Swap with another pane",
+  "agent.next": "Next agent",
+  "agent.prev": "Previous agent",
+  "app.zoom_in": "Zoom in",
+  "app.zoom_out": "Zoom out",
+  "app.zoom_reset": "Reset zoom",
+  "app.settings": "Settings",
+  "app.help": "Help",
+  "app.palette": "Command palette",
+  "app.reset": "Reset the window",
+  "mod.open:picker": "Open the mod picker",
 };
 // Families: one entry for every direction of the same move.
-const FAMILY = { "pane.go": "pane.go:", "pane.split": "pane.split:" };
+const FAMILY = {
+  "pane.go": "pane.go:",
+  "pane.split": "pane.split:",
+  "pane.swap": "pane.swap:",
+};
 // The shortcuts worth coaching: moving around and arranging. Zoom, help,
 // palette and settings stay as they are.
 const COACHED = /^(space|tab|pane|agent)\.|^layout\.(toggle|switch)/;
